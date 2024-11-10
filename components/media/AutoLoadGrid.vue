@@ -57,6 +57,6 @@ if (import.meta.client) {
   </MediaGrid>
   <div ref="tailEl" />
   <div v-if="isLoading" class="animate-pulse p-10">
-    <Icon name="i-carbon:circle-dash" class="m-auto animate-spin text-4xl" />
+    <Icon name="lucide:loader" class="m-auto animate-spin text-4xl" />
   </div>
 </template>
