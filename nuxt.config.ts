@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   ],
   routeRules: {
     // '/**': isDev ? {} : { cache: { swr: true, maxAge: 120, staleMaxAge: 60, headersOnly: true } },
-    '/**': { cache: { swr: true, maxAge: 120, staleMaxAge: 60, headersOnly: true } },
+    // '/**': { cache: { swr: true, maxAge: 120, staleMaxAge: 60, headersOnly: true } },
   },
   icon: {
     clientBundle: {
